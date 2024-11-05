@@ -1,0 +1,147 @@
+.desktop{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    background-color: #8C2FFA;
+    font-family: 'Inter', sans-serif;
+}
+.header{
+    margin-top: 30px;
+    display: flex;
+}
+.header-left,.header-center,.header-right {
+    flex: 1; 
+    text-align: center;
+}
+.header-left{
+    float: left;
+    margin-left: -70px;
+}
+.header-left li{
+    text-align: center;
+    font-weight: 700;
+    padding: 5px 15px;
+    display: inline-block;
+    background-color: #CF2FFA;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    
+}
+.header-left li a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-center img{
+    margin-top: -20px;
+    width: 80px;
+    height: 80px;
+    margin-left: 80px;
+}
+
+.header-right img{
+    margin-left: 200px;
+    background-color: #CF2FFA;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+main{
+    background-color: #4A2FFA;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 100px 55px 100px;
+}
+
+.personal-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    padding-bottom: 45px;
+}
+
+.tittle-personal{
+    text-align: center;
+}
+
+.icon-background{
+    background-color: #E493FA;
+    border-radius: 10px;
+}
+
+.perfil{
+    display: flex;
+}
+
+.user-text{
+    margin-left: 15px;
+}
+
+.points{
+    display: flex;
+    align-items: center;
+}
+
+.points img {
+    padding-top: 2px;
+    margin-left: 10px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.last-purchase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 5px 25px 10px 25px;
+    border-radius: 15px;
+}
+
+.last-purchase-information{
+    display: flex;
+    align-items: center;
+    min-height: 400px;
+}
+
+.last-purchase-text{
+    margin-left: 20px;
+}
+
+.last-purchase-tittle{
+    margin: 10px 0 10px 0;
+    background-color: #E493FA;
+    padding: 0 15px 0 15px;
+    border-radius: 15px;
+}
+
+.last-purchase-history{
+    background-color: #E493FA;
+    border-radius: 15px;
+    margin: 10px 0 10px 0;
+    padding: 0 15px 0 15px;
+}
+
+footer{
+    background-color: #4A2FFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px;
+}
+

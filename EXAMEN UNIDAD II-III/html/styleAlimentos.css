@@ -1,0 +1,205 @@
+.desktop{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    background-color: #8C2FFA;
+    font-family: 'Inter', sans-serif;
+}
+.header{
+    margin-top: 30px;
+    display: flex;
+}
+.header-left,.header-center,.header-right {
+    flex: 1; 
+    text-align: center;
+}
+.header-left{
+    float: left;
+    margin-left: -70px;
+}
+.header-left li{
+    text-align: center;
+    font-weight: 700;
+    padding: 5px 15px;
+    display: inline-block;
+    background-color: #CF2FFA;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    
+}
+.header-left li a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-center img{
+    margin-top: -20px;
+    width: 80px;
+    height: 80px;
+    margin-left: 80px;
+}
+
+.header-right img{
+    margin-left: 200px;
+    background-color: #CF2FFA;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main-panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tittle{
+    background-color: white;
+    width: 300px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    padding-top: 50px;
+    background-color: #4A2FFA;
+    min-height: 100%
+}
+
+.main-panel{
+    margin-left: 200px;
+    max-width: 900px;
+}
+
+.cart-panel {
+    margin-right: 300px;
+    position: sticky;
+    top: 170px;
+    max-height: 200px;
+}
+
+.cart-panel h1{
+    color: black;
+    text-align: center;
+}
+
+.cart-tittle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E493FA;
+    max-height: 50px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.cart-tittle img{
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+
+.movie-information{
+    display: flex;
+}
+
+.movie-text{
+    padding: 10px;
+    margin-top: 18px;
+    overflow-wrap: break-word;
+}
+
+.summary{
+    display: flex;
+    max-width: 400px;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    min-height: 575px;
+}
+
+#asientos{
+    display: flex;
+    align-items: center;
+    max-height: 20px;
+}
+
+#asientos img {
+    max-width: 40px;
+    max-height: 40px;
+    margin-left: 10px;
+}
+
+.purchase-information{
+    display: flex;
+    align-items: center;
+}
+
+#popcorn{
+    margin-left: 70px;
+    width: 80px;
+    height: 80px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advice{
+    font-size: 25px;
+    color: white;
+    margin-left: 260px;
+}
+
+.confirm{
+    margin-right: 365px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.main-content{
+    margin-top: 10px;
+}
+
+.main-panel h1 {
+    color: white;
+}
+
+.option {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.food-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.food-section-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.option button {
+    margin-top: 10px;
+}
+
+.food-section h2 {
+    margin: 0px;
+    color: white;
+}
