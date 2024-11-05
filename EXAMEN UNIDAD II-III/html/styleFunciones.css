@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #4A2FFA;
+    font-family: 'Inter', sans-serif;
+}
+
+.header{
+    position: sticky;
+    padding: 20px 0;  
+    top: 0;             /* Fija el encabezado en la parte superior */
+    z-index: 1000;      /* Asegura que el encabezado esté encima de otros elementos */
+    background-color:#8C2FFA;
+    display: flex;
+
+}
+.header-left,.header-center,.header-right {
+    flex: 1; 
+    text-align: center;
+    padding: 10px; 
+}
+.header-left {
+    float: none;      /* Eliminar el float para evitar conflictos con flex */
+    margin-left: 0;  /* Eliminar márgenes negativos */
+}
+.header-left li{
+    text-align: center;
+    font-weight: 700;
+    padding: 5px 15px;
+    display: inline-block;
+    background-color: #CF2FFA;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    
+}
+.header-left li a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-center img{
+    margin-top: -20px;
+    width: 80px;
+    height: 80px;
+    margin-left: 80px;
+}
+
+.header-right img{
+    margin-left: 290px;
+    background-color: #CF2FFA;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.section{
+   display: flex;
+}
+.section-left{ 
+    float: left;
+    margin-left: 250px;
+}
+
+.section-left p{  
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.pelicula img{
+    margin-top:20px ;
+    width: 300px;
+    height: 450px;
+}
+.section-right{
+    float: right;
+    margin-top: 100px;
+    margin-left: 90px;    
+}
+
+.section-right p {
+    margin-top: 10px;
+    width: 700px;
+    font-weight: 700;
+    color: white;    
+}
+
+.section-2{
+    margin-top: 10px;
+    display: flex;
+    
+}
+
+.section-2 h3{
+    padding-inline: 100px;
+}
+
+.section-3{
+    margin-top: 10px;
+    float: left;
+    display: flex;
+    padding-inline: 100px;
+}
+.section-3 a{
+    text-decoration: none;
+}
+.section-3 li{
+    text-align: center;
+    font-weight: 700;
+    padding: 5px 15px;
+    display: inline-block;
+    background-color: #CF2FFA;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.dias{
+    padding-inline: 100px;
+}
+.circulos{
+    
+    float: right;
+    margin-right: 250px;
+}
+
+.circulos img{
+    padding-inline: 25px;
+}
+.section-4 h3{
+    margin-top: 70px;
+}
+
+.section-5{
+    display: flex;
+    margin-top: 10px;
+}
+
+.section-5 img{
+    padding-inline: 10px;
+    height: 40px;
+    width: 250px;
+}
+.horas label{
+    padding-inline: 100px;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: #D3D3D3;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.section-6{
+    margin-top: 10px;
+    display: flex;
+}
+.section-6 img{
+    padding-inline: 10px;
+    height: 40px;
+    width: 250px;
+}
+.section-7{
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 40px;
+}
+
+.section-7 p{
+    background-color: #CF2FFA;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: black;
+    display: inline;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.section-7:hover{
+    transform: scale(1.1); 
+    
+}
+.section-7 a{
+    text-decoration: none;
+    
+
+}
