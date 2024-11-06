@@ -42,6 +42,7 @@ body{
     margin-left: 80px;
 }
 
+
 .header-right img{
     margin-left: 200px;
     background-color: #CF2FFA;
@@ -111,6 +112,9 @@ main{
     display: flex;
     align-items: center;
     min-height: 400px;
+}
+.last-purchase-history a{
+    text-decoration: none;
 }
 
 .last-purchase-text{
